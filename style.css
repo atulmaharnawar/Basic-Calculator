@@ -1,0 +1,38 @@
+html,
+body {
+    width: 100%;
+    height: 100;
+    background-color: wheat;
+}
+
+.btn {
+    padding: 20px;
+    margin: 0 4px;
+    font-weight: bolder;
+    max-width: 10px;
+    max-height: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.btn2 {
+    padding: 20px;
+    margin: 0 4px;
+    font-weight: bolder;
+    width: 66px;
+    max-height: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.btn:hover {
+    border: 2px solid white;
+}
+
+.btn2:hover {
+    border: 2px solid white;
+}
+
+.row input:hover {
+    border: 2px solid white;
+}

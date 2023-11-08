@@ -1,0 +1,48 @@
+.text_center {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(37, 80, 37);
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    max-width: fit-content;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.row {
+    margin: 8px 2px;
+}
+
+.row input {
+    margin: 0;
+    padding: 10px 24px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: grey;
+    color: white;
+}
+
+.clear {
+    background-color: tomato
+}
+
+.del {
+    background-color: tomato;
+}
+
+.solve {
+    background-color: green
+}
+
+.num {
+    background-color: cornflowerblue
+}
+
+.operator {
+    background-color: orange;
+}
